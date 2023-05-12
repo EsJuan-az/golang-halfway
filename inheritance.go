@@ -1,7 +1,8 @@
-package goutils
+package main
 
 import "fmt"
 type Person struct{
+	DNI string
 	name string
 	age int
 }

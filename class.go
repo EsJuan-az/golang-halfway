@@ -1,4 +1,4 @@
-package goutils
+package main
 
 import "fmt"
 type Employee struct{

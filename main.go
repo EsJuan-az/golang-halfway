@@ -1,1 +1,5 @@
-package goutils
+package main
+
+func main(){
+
+}

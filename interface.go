@@ -1,4 +1,4 @@
-package goutils
+package main
 
 import "fmt"
 
@@ -9,7 +9,6 @@ func printInfo(pi PrintInfo){
 	fmt.Println(pi.getInfo())
 }
 type TemporaryEmployee struct{
-	Person
 	BaseEmployee
 	endDate string
 }
@@ -26,7 +25,6 @@ func NewTemporary(id int, name string, age int, endDate string)*TemporaryEmploye
 
 }
 type FullTimeEmployee struct{
-	Person
 	BaseEmployee
 	taxRate int
 }

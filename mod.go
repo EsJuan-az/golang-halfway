@@ -1,4 +1,4 @@
-package goutils
+package main
 
 import (
 	hm2 "github.com/donvito/hellomod/v2"
